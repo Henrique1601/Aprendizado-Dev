@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Logic Platform — Plataforma de Estudos para Lógica de Programação
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-61dafb?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Monaco Editor](https://img.shields.io/badge/Monaco_Editor-VS_Code-007acc?logo=visualstudiocode)](https://microsoft.github.io/monaco-editor/)
 
-First, run the development server:
+Ambiente interativo de desenvolvimento web criado para a prática intensiva de algoritmos, resolução de exercícios e fundamentos de lógica de programação diretamente pelo navegador.
 
-```bash
+---
+
+## 🌟 Recursos
+
+* **📝 Editor de Código Integrado (Monaco Editor):** A mesma engine utilizada no Visual Studio Code, com syntax highlighting, auto-complete e suporte avançado a linguagens.
+* **🪟 Painéis Redimensionáveis:** Interface dividida entre enunciado do desafio, área de edição de código e saída de testes com \eact-resizable-panels\.
+* **⚡ Interface Moderna & Dark Mode:** Estilização com Tailwind CSS, ícones Lucide e foco total na ergonomia de estudo.
+* **🧱 Arquitetura Modular:** Construído sobre Next.js e TypeScript com tipagem estrita para facilitar novas trilhas e desafios.
+
+---
+
+## 🛠️ Tecnologias
+
+* **Framework:** [Next.js](https://nextjs.org/)
+* **Editor:** [@monaco-editor/react](https://github.com/suren-atoyan/monaco-react)
+* **Componentes:** [React](https://react.dev/), [react-resizable-panels](https://github.com/bvaughn/react-resizable-panels)
+* **Ícones:** [lucide-react](https://lucide.dev/)
+* **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 🚀 Como Executar
+
+\\\ash
+# 1. Clone o projeto
+git clone https://github.com/Henrique1601/Aprendizado-Dev.git
+
+# 2. Entre na pasta
+cd Aprendizado-Dev
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\\\
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Licença
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Distribuído sob a licença [MIT](LICENSE). Desenvolvido por [Henrique Bezerra](https://github.com/Henrique1601).
